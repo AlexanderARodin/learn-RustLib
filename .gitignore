@@ -11,3 +11,9 @@ Cargo.lock
 
 # vim tmp files
 /src/*.swp
+
+
+# Added by cargo
+
+/target
+/Cargo.lock
