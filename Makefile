@@ -1,4 +1,4 @@
-libname="learn-RustLib"
+libname="liblearn_RustLib.rlib"
 
 
 help:
@@ -8,7 +8,7 @@ run: release size
 	@./target/release/$(binname)
 
 edit:
-	@vi ./src/main.rs
+	@vi ./src/lib.rs
 
 savetogit:
 	@git add . && git commit -m 'saving' && git push
